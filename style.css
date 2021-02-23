@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+
+body{
+  background: rgb(192, 218, 243);
+}
+
+#container{
+  display: flex;
+  height: 100vh;  
+  justify-content: space-between;
+}
+
+.first {  
+  background: green;
+  flex-grow: 1;
+  border: 2px solid red;
+}
+
+.second {
+  background: yellow;
+  flex-grow: 1;
+  border: 2px solid red;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.third {
+  background: blue;
+  flex-grow: 1;
+  border: 2px solid red;
+}
